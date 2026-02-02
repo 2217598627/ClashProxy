@@ -65,13 +65,13 @@ proxy-providers: # ← 此函数位置请勿变动！此为模块更新时备份
     override:
       additional-prefix: "Main："
     path: ./proxies/1.订阅地址.yaml
-    url: "https://zhuzhuzhu.whtjdasha.com/api/v1/client/subscribe?token=5dd12623c20df20122799c5fc8da99ec"
+    url: ""
   2.订阅地址:
     <<: *p
     override:
       additional-prefix: "Minor："
     path: ./proxies/2.订阅地址.yaml
-    url: "https://cf-worker-mihomo.li08.top/?template=https%3A%2F%2Fraw.githubusercontent.com%2FKwisma%2Fcf-worker-mihomo%2Fmain%2Ftemplate%2FMihomo_default_full_NoAds.yaml&url=https%3A%2F%2Fedgetunnel.li08.top%2Fsub%3Ftoken%3D82364d35969d46bc28168fb2cf20e195&mihomo=true&udp=true&ep=true"
+    url: ""
 # —————————
 # 节点记忆
 profile: # ← 此函数位置请勿变动！此为模块更新时备份恢复订阅变量范围 ↑
