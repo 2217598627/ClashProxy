@@ -27,7 +27,7 @@ find-process-mode: always
 global-client-fingerprint: chrome
 external-controller: 0.0.0.0:9090 #修改端口后，如使用磁贴请重新正确设置API端口
 external-ui-url: "https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip"
-external-ui: "./Web/Metacubexd/"
+external-ui: "./Web/Zash/"
 secret: "" # 面板访问密码，如在公网访问建议设置
 # —————————
 # ==== Tips
@@ -122,7 +122,7 @@ tun:
     - com.cainiao.station # 驿站掌柜
     - com.kuaidi100.courier # 快递100收件端
     # VPN加速器
-    - com.oplus.games # 游戏助手
+    - com.oplus.games # 一加游戏助手
 # —————————
 # DNS模块
 # 请勿随意变动！
